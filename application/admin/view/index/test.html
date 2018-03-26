@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {include file="common/meta" /}
+
+        <style type="text/css">
+            body {
+                color:#999;
+                background-size:cover;
+            }
+            a {
+                color:#fff;
+            }
+            .login-panel{margin-top:150px;}
+            .login-screen {
+                max-width:400px;
+                background-color: #fefefe;
+                padding:0;
+                margin:100px auto 0 auto;
+
+            }
+            .login-screen .well {
+                border-radius: 3px;
+                -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                background: rgba(255,255,255, 0.2);
+            }
+            .login-screen .copyright {
+                text-align: center;
+            }
+            @media(max-width:767px) {
+                .login-screen {
+                    padding:0 20px;
+                }
+            }
+            .profile-img-card {
+                width: 100px;
+                height: 100px;
+                margin: 10px auto;
+                display: block;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                border-radius: 50%;
+            }
+            .profile-name-card {
+                text-align: center;
+            }
+
+            #login-form {
+                margin-top:20px;
+            }
+            #login-form .input-group {
+                margin-bottom:15px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="login-wrapper">
+                <div class="login-screen">
+                    <div class="well">
+                        <div class="login-form">
+                            <p id="profile-name" class="profile-name-card"></p>
+                            
+                            <form action="" method="post" id="login-form">
+                                <div id="errtips" class="hide"></div>
+                                {:token()}
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></div>
+                                    <input type="text" class="form-control" id="pd-form-username" placeholder="{:__('mac')}" name="mac" autocomplete="off" value="" data-rule="{:__('mac')}:required;" />
+                                </div>
+
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="fa fa-wifi" aria-hidden="true"></span></div>
+                                    <input type="text" class="form-control" id="pd-form-password" placeholder="{:__('wifi ssid')}" name="ssid" autocomplete="off" value="" data-rule="{:__('wifi ssid')}:required;" />
+                                </div>
+
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="fa fa-home" aria-hidden="true"></span></div>
+                                    <input type="text" class="form-control" id="pd-form-shop" placeholder="{:__('shop')}" name="shop" autocomplete="off" value="" />
+                                </div>
+
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-success btn-lg btn-block">  测&nbsp;&nbsp;&nbsp;试  </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {include file="common/script" /}
+    </body>
+</html>

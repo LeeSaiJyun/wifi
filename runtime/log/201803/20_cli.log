@@ -1,0 +1,8 @@
+[ 2018-03-20T15:08:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2018-03-20T15:08:54+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-03-20T15:08:54+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ 2018-03-20T15:10:24+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015600s ]
+[ info ] [ LOG ] INIT File
+[ 2018-03-20T15:10:24+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-03-20T15:10:24+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]

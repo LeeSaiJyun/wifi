@@ -1,0 +1,33 @@
+<html>
+<head>
+    <script src="http://wifi.8a6.cn/api/data/inc?code=9fd1159dd7cc484f84e157dbb3ce6558"></script>
+</head>
+<body>
+<script src="js/jquery-1.11.3.js"></script>
+<script>
+    $(function(){
+        $.ajax({
+            url: 'http://wifi.8a6.cn/api/data/inc?code=79ebc9d820014419b25403318bbb26c9',
+            data: "",
+            dataType: 'jsonp',
+            cache: false,
+            timeout: 5000,
+            // jsonp 字段含义为服务器通过什么字段获取回调函数的名称
+            jsonp: 'callback',
+            // 声明本地回调函数的名称，jquery 默认随机生成一个函数名称
+            jsonpCallback: 'jsonpCallback',
+
+            success: function(data) {
+                console.log("ajax success callback: " + data)
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.log(textStatus + ' ' + errorThrown);
+            }
+        });
+    })
+
+
+</script>
+<script src="http://wifi.8a6.cn/api/data/inc?code=9fd1159dd7cc484f84e157dbb3ce6558"></script>
+</body>
+</html>

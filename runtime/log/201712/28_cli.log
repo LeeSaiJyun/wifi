@@ -1,0 +1,109 @@
+[ 2017-12-28T17:10:08+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-28T17:10:08+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-28T17:10:08+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009000s ]
+[ 2017-12-28T17:10:08+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-28T17:10:59+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-28T17:10:59+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-28T17:10:59+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010000s ]
+[ 2017-12-28T17:10:59+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-28T17:10:59+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.020000s ] mysql:host=localhost;port=3306;dbname=fastadmin;charset=utf8
+[ 2017-12-28T17:10:59+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shebei' [ RunTime:0.052000s ]
+[ 2017-12-28T17:10:59+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'shebei' ORDER BY ORDINAL_POSITION [ RunTime:0.030000s ]
+[ 2017-12-28T17:10:59+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-28T17:10:59+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-28T17:10:59+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010000s ]
+[ 2017-12-28T17:10:59+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-28T17:10:59+08:00 ][ info ] [ LANG ] C:\Users\xixi\PhpstormProjects\wifi_8a6_cn\application\admin\lang/zh-cn.php
+[ 2017-12-28T17:10:59+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=localhost;port=3306;dbname=fastadmin;charset=utf8
+[ 2017-12-28T17:10:59+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.010000s ]
+[ 2017-12-28T17:10:59+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'shebei' LIMIT 1 [ RunTime:0.000000s ]
+[ 2017-12-28T17:11:00+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'shebei' , 'Shebei' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1514452259 , 1514452259) [ RunTime:0.017001s ]
+[ 2017-12-28T17:11:00+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (75 , 'shebei/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1514452260 , 1514452260) [ RunTime:0.001000s ]
+[ 2017-12-28T17:11:00+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (75 , 'shebei/recyclebin' , 'fa fa-circle-o' , '回收站' , 0 , 'normal' , 1514452260 , 1514452260) [ RunTime:0.001000s ]
+[ 2017-12-28T17:11:00+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (75 , 'shebei/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1514452260 , 1514452260) [ RunTime:0.000000s ]
+[ 2017-12-28T17:11:00+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (75 , 'shebei/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1514452260 , 1514452260) [ RunTime:0.000000s ]
+[ 2017-12-28T17:11:00+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (75 , 'shebei/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1514452260 , 1514452260) [ RunTime:0.001000s ]
+[ 2017-12-28T17:11:00+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (75 , 'shebei/destroy' , 'fa fa-circle-o' , '真实删除' , 0 , 'normal' , 1514452260 , 1514452260) [ RunTime:0.000000s ]
+[ 2017-12-28T17:11:00+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (75 , 'shebei/restore' , 'fa fa-circle-o' , '还原' , 0 , 'normal' , 1514452260 , 1514452260) [ RunTime:0.000000s ]
+[ 2017-12-28T17:11:00+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (75 , 'shebei/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1514452260 , 1514452260) [ RunTime:0.001000s ]
+[ 2017-12-28T17:11:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-28T17:11:49+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-28T17:11:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010000s ]
+[ 2017-12-28T17:11:49+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-28T17:11:49+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.020000s ] mysql:host=localhost;port=3306;dbname=fastadmin;charset=utf8
+[ 2017-12-28T17:11:49+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shop' [ RunTime:0.000000s ]
+[ 2017-12-28T17:11:49+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'shop' ORDER BY ORDINAL_POSITION [ RunTime:0.010000s ]
+[ 2017-12-28T17:11:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-28T17:11:49+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-28T17:11:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010000s ]
+[ 2017-12-28T17:11:49+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-28T17:11:49+08:00 ][ info ] [ LANG ] C:\Users\xixi\PhpstormProjects\wifi_8a6_cn\application\admin\lang/zh-cn.php
+[ 2017-12-28T17:11:49+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=localhost;port=3306;dbname=fastadmin;charset=utf8
+[ 2017-12-28T17:11:49+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.010000s ]
+[ 2017-12-28T17:11:49+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'shop' LIMIT 1 [ RunTime:0.000000s ]
+[ 2017-12-28T17:11:49+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'shop' , 'Shop' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1514452309 , 1514452309) [ RunTime:0.000000s ]
+[ 2017-12-28T17:11:49+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (84 , 'shop/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1514452309 , 1514452309) [ RunTime:0.010000s ]
+[ 2017-12-28T17:11:49+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (84 , 'shop/recyclebin' , 'fa fa-circle-o' , '回收站' , 0 , 'normal' , 1514452309 , 1514452309) [ RunTime:0.000000s ]
+[ 2017-12-28T17:11:49+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (84 , 'shop/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1514452309 , 1514452309) [ RunTime:0.000000s ]
+[ 2017-12-28T17:11:49+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (84 , 'shop/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1514452309 , 1514452309) [ RunTime:0.000000s ]
+[ 2017-12-28T17:11:49+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (84 , 'shop/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1514452309 , 1514452309) [ RunTime:0.000000s ]
+[ 2017-12-28T17:11:49+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (84 , 'shop/destroy' , 'fa fa-circle-o' , '真实删除' , 0 , 'normal' , 1514452309 , 1514452309) [ RunTime:0.000000s ]
+[ 2017-12-28T17:11:49+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (84 , 'shop/restore' , 'fa fa-circle-o' , '还原' , 0 , 'normal' , 1514452309 , 1514452309) [ RunTime:0.000000s ]
+[ 2017-12-28T17:11:49+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (84 , 'shop/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1514452309 , 1514452309) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-28T17:13:17+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-28T17:13:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:17+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-28T17:13:17+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=localhost;port=3306;dbname=fastadmin;charset=utf8
+[ 2017-12-28T17:13:17+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'dblog' [ RunTime:0.010000s ]
+[ 2017-12-28T17:13:17+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'dblog' ORDER BY ORDINAL_POSITION [ RunTime:0.010000s ]
+[ 2017-12-28T17:13:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-28T17:13:17+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-28T17:13:17+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:17+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-28T17:13:17+08:00 ][ info ] [ LANG ] C:\Users\xixi\PhpstormProjects\wifi_8a6_cn\application\admin\lang/zh-cn.php
+[ 2017-12-28T17:13:17+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=localhost;port=3306;dbname=fastadmin;charset=utf8
+[ 2017-12-28T17:13:17+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.010000s ]
+[ 2017-12-28T17:13:17+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'dblog' LIMIT 1 [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:17+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'dblog' , 'Dblog' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1514452397 , 1514452397) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:17+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (93 , 'dblog/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1514452397 , 1514452397) [ RunTime:0.010000s ]
+[ 2017-12-28T17:13:17+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (93 , 'dblog/recyclebin' , 'fa fa-circle-o' , '回收站' , 0 , 'normal' , 1514452397 , 1514452397) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:17+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (93 , 'dblog/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1514452397 , 1514452397) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:17+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (93 , 'dblog/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1514452397 , 1514452397) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:17+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (93 , 'dblog/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1514452397 , 1514452397) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:17+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (93 , 'dblog/destroy' , 'fa fa-circle-o' , '真实删除' , 0 , 'normal' , 1514452397 , 1514452397) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:17+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (93 , 'dblog/restore' , 'fa fa-circle-o' , '还原' , 0 , 'normal' , 1514452397 , 1514452397) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:17+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (93 , 'dblog/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1514452397 , 1514452397) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-28T17:13:28+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-28T17:13:28+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ 2017-12-28T17:13:28+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-28T17:13:28+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.007001s ] mysql:host=localhost;port=3306;dbname=fastadmin;charset=utf8
+[ 2017-12-28T17:13:28+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'errorlog' [ RunTime:0.005000s ]
+[ 2017-12-28T17:13:28+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'errorlog' ORDER BY ORDINAL_POSITION [ RunTime:0.011000s ]
+[ 2017-12-28T17:13:29+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2017-12-28T17:13:29+08:00 ][ info ] [ CACHE ] INIT File
+[ 2017-12-28T17:13:29+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010000s ]
+[ 2017-12-28T17:13:29+08:00 ][ info ] [ DB ] INIT mysql
+[ 2017-12-28T17:13:29+08:00 ][ info ] [ LANG ] C:\Users\xixi\PhpstormProjects\wifi_8a6_cn\application\admin\lang/zh-cn.php
+[ 2017-12-28T17:13:29+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=localhost;port=3306;dbname=fastadmin;charset=utf8
+[ 2017-12-28T17:13:29+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.010000s ]
+[ 2017-12-28T17:13:29+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'errorlog' LIMIT 1 [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:29+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'errorlog' , 'Errorlog' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1514452409 , 1514452409) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:29+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (102 , 'errorlog/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1514452409 , 1514452409) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:29+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (102 , 'errorlog/recyclebin' , 'fa fa-circle-o' , '回收站' , 0 , 'normal' , 1514452409 , 1514452409) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:29+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (102 , 'errorlog/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1514452409 , 1514452409) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:29+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (102 , 'errorlog/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1514452409 , 1514452409) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:29+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (102 , 'errorlog/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1514452409 , 1514452409) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:29+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (102 , 'errorlog/destroy' , 'fa fa-circle-o' , '真实删除' , 0 , 'normal' , 1514452409 , 1514452409) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:29+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (102 , 'errorlog/restore' , 'fa fa-circle-o' , '还原' , 0 , 'normal' , 1514452409 , 1514452409) [ RunTime:0.000000s ]
+[ 2017-12-28T17:13:29+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (102 , 'errorlog/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1514452409 , 1514452409) [ RunTime:0.000000s ]

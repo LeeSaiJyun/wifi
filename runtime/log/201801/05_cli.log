@@ -1,0 +1,113 @@
+[ 2018-01-05T14:41:40+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000112s ]
+[ info ] [ LOG ] INIT File
+[ 2018-01-05T14:41:40+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-01-05T14:41:40+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000644s ]
+[ 2018-01-05T14:41:40+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-01-05T14:41:40+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000236s ] mysql:host=localhost;port=3306;dbname=wifi_8a6_cn;charset=utf8
+[ 2018-01-05T14:41:40+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shebeimac' [ RunTime:0.000317s ]
+[ 2018-01-05T14:41:40+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_shebeimac' [ RunTime:0.000221s ]
+[ 2018-01-05T14:45:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000112s ]
+[ info ] [ LOG ] INIT File
+[ 2018-01-05T14:45:07+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-01-05T14:45:07+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000705s ]
+[ 2018-01-05T14:45:07+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-01-05T14:45:07+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000320s ] mysql:host=localhost;port=3306;dbname=wifi_8a6_cn;charset=utf8
+[ 2018-01-05T14:45:07+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shop' [ RunTime:0.000458s ]
+[ 2018-01-05T14:45:07+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_shop' [ RunTime:0.000411s ]
+[ 2018-01-05T14:45:07+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'admin' [ RunTime:0.000292s ]
+[ 2018-01-05T14:45:07+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_admin' [ RunTime:0.000310s ]
+[ 2018-01-05T14:45:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000112s ]
+[ info ] [ LOG ] INIT File
+[ 2018-01-05T14:45:16+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-01-05T14:45:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000646s ]
+[ 2018-01-05T14:45:16+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-01-05T14:45:16+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000247s ] mysql:host=localhost;port=3306;dbname=wifi_8a6_cn;charset=utf8
+[ 2018-01-05T14:45:16+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shop' [ RunTime:0.000319s ]
+[ 2018-01-05T14:45:16+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_shop' [ RunTime:0.000298s ]
+[ 2018-01-05T14:45:16+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'admin' [ RunTime:0.000195s ]
+[ 2018-01-05T14:45:16+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_admin' [ RunTime:0.000215s ]
+[ 2018-01-05T14:45:16+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wifi_8a6_cn' AND table_name = 'fa_shop' ORDER BY ORDINAL_POSITION [ RunTime:0.000744s ]
+[ 2018-01-05T14:45:16+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wifi_8a6_cn' AND table_name = 'fa_admin' ORDER BY ORDINAL_POSITION [ RunTime:0.000618s ]
+[ 2018-01-05T14:45:43+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000118s ]
+[ info ] [ LOG ] INIT File
+[ 2018-01-05T14:45:43+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-01-05T14:45:43+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000687s ]
+[ 2018-01-05T14:45:43+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-01-05T14:45:43+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000239s ] mysql:host=localhost;port=3306;dbname=wifi_8a6_cn;charset=utf8
+[ 2018-01-05T14:45:43+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'device' [ RunTime:0.000322s ]
+[ 2018-01-05T14:45:43+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_device' [ RunTime:0.000257s ]
+[ 2018-01-05T14:45:43+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shop' [ RunTime:0.000212s ]
+[ 2018-01-05T14:45:43+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_shop' [ RunTime:0.000226s ]
+[ 2018-01-05T14:45:43+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wifi_8a6_cn' AND table_name = 'fa_device' ORDER BY ORDINAL_POSITION [ RunTime:0.000688s ]
+[ 2018-01-05T14:45:43+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wifi_8a6_cn' AND table_name = 'fa_shop' ORDER BY ORDINAL_POSITION [ RunTime:0.000632s ]
+[ 2018-01-05T14:46:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000123s ]
+[ info ] [ LOG ] INIT File
+[ 2018-01-05T14:46:30+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-01-05T14:46:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000685s ]
+[ 2018-01-05T14:46:30+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-01-05T14:46:30+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000256s ] mysql:host=localhost;port=3306;dbname=wifi_8a6_cn;charset=utf8
+[ 2018-01-05T14:46:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'mobile' [ RunTime:0.000333s ]
+[ 2018-01-05T14:46:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_mobile' [ RunTime:0.000408s ]
+[ 2018-01-05T14:46:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'device' [ RunTime:0.000242s ]
+[ 2018-01-05T14:46:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_device' [ RunTime:0.000220s ]
+[ 2018-01-05T14:46:30+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wifi_8a6_cn' AND table_name = 'fa_mobile' ORDER BY ORDINAL_POSITION [ RunTime:0.000726s ]
+[ 2018-01-05T14:46:30+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wifi_8a6_cn' AND table_name = 'fa_device' ORDER BY ORDINAL_POSITION [ RunTime:0.000580s ]
+[ 2018-01-05T14:47:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000112s ]
+[ info ] [ LOG ] INIT File
+[ 2018-01-05T14:47:05+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-01-05T14:47:05+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000635s ]
+[ 2018-01-05T14:47:05+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-01-05T14:47:05+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000255s ] mysql:host=localhost;port=3306;dbname=wifi_8a6_cn;charset=utf8
+[ 2018-01-05T14:47:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'task' [ RunTime:0.000322s ]
+[ 2018-01-05T14:47:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_task' [ RunTime:0.000284s ]
+[ 2018-01-05T14:47:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'shop' [ RunTime:0.000201s ]
+[ 2018-01-05T14:47:05+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_shop' [ RunTime:0.000233s ]
+[ 2018-01-05T14:47:05+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wifi_8a6_cn' AND table_name = 'fa_task' ORDER BY ORDINAL_POSITION [ RunTime:0.000698s ]
+[ 2018-01-05T14:47:05+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wifi_8a6_cn' AND table_name = 'fa_shop' ORDER BY ORDINAL_POSITION [ RunTime:0.000624s ]
+[ 2018-01-05T14:54:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000112s ]
+[ info ] [ LOG ] INIT File
+[ 2018-01-05T14:54:30+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-01-05T14:54:30+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000661s ]
+[ 2018-01-05T14:54:30+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-01-05T14:54:30+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000236s ] mysql:host=localhost;port=3306;dbname=wifi_8a6_cn;charset=utf8
+[ 2018-01-05T14:54:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'push_log' [ RunTime:0.000365s ]
+[ 2018-01-05T14:54:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_push_log' [ RunTime:0.000262s ]
+[ 2018-01-05T14:54:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'device' [ RunTime:0.000220s ]
+[ 2018-01-05T14:54:30+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_device' [ RunTime:0.000217s ]
+[ 2018-01-05T14:54:30+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wifi_8a6_cn' AND table_name = 'fa_push_log' ORDER BY ORDINAL_POSITION [ RunTime:0.000696s ]
+[ 2018-01-05T14:54:30+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wifi_8a6_cn' AND table_name = 'fa_device' ORDER BY ORDINAL_POSITION [ RunTime:0.000579s ]
+[ 2018-01-05T14:55:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000112s ]
+[ info ] [ LOG ] INIT File
+[ 2018-01-05T14:55:49+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-01-05T14:55:49+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000650s ]
+[ 2018-01-05T14:55:49+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-01-05T14:55:49+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000243s ] mysql:host=localhost;port=3306;dbname=wifi_8a6_cn;charset=utf8
+[ 2018-01-05T14:55:49+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'device_log' [ RunTime:0.000356s ]
+[ 2018-01-05T14:55:49+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_device_log' [ RunTime:0.000467s ]
+[ 2018-01-05T14:55:49+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wifi_8a6_cn' AND table_name = 'fa_device_log' ORDER BY ORDINAL_POSITION [ RunTime:0.000705s ]
+[ 2018-01-05T14:58:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000111s ]
+[ info ] [ LOG ] INIT File
+[ 2018-01-05T14:58:22+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-01-05T14:58:22+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000642s ]
+[ 2018-01-05T14:58:22+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-01-05T14:58:22+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000219s ] mysql:host=localhost;port=3306;dbname=wifi_8a6_cn;charset=utf8
+[ 2018-01-05T14:58:22+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'device_log' [ RunTime:0.000318s ]
+[ 2018-01-05T14:58:22+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_device_log' [ RunTime:0.000261s ]
+[ 2018-01-05T14:58:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000116s ]
+[ info ] [ LOG ] INIT File
+[ 2018-01-05T14:58:35+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-01-05T14:58:35+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000635s ]
+[ 2018-01-05T14:58:35+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-01-05T14:58:35+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000211s ] mysql:host=localhost;port=3306;dbname=wifi_8a6_cn;charset=utf8
+[ 2018-01-05T14:58:35+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'device_log' [ RunTime:0.000307s ]
+[ 2018-01-05T14:58:35+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_device_log' [ RunTime:0.000258s ]
+[ 2018-01-05T14:58:35+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wifi_8a6_cn' AND table_name = 'fa_device_log' ORDER BY ORDINAL_POSITION [ RunTime:0.000682s ]
+[ 2018-01-05T14:58:39+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000111s ]
+[ info ] [ LOG ] INIT File
+[ 2018-01-05T14:58:39+08:00 ][ info ] [ CACHE ] INIT File
+[ 2018-01-05T14:58:39+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000660s ]
+[ 2018-01-05T14:58:39+08:00 ][ info ] [ DB ] INIT mysql
+[ 2018-01-05T14:58:39+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000235s ] mysql:host=localhost;port=3306;dbname=wifi_8a6_cn;charset=utf8
+[ 2018-01-05T14:58:39+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'device_log' [ RunTime:0.000312s ]
+[ 2018-01-05T14:58:39+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_device_log' [ RunTime:0.000257s ]
+[ 2018-01-05T14:58:39+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'wifi_8a6_cn' AND table_name = 'fa_device_log' ORDER BY ORDINAL_POSITION [ RunTime:0.000664s ]
